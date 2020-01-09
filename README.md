@@ -1,5 +1,6 @@
 # Reader And Writers Problem
 This is Java application developed by Clarice Abreu.
+
 The project was developed for the Operation Systems course from University of São Paulo.
 
 ## Specification and App Report
