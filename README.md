@@ -3,8 +3,8 @@ This is Java application developed by Clarice Abreu.
 The project was developed for the Operation Systems course from University of São Paulo.
 
 ## Specification and App Report
-The discription of the project is available at: 
-Report of the project is available at: https://docs.google.com/document/d/18XSamfLG6u7XeN9CTWI0hQ-W9QifN4bFXoIaQJ543DI/edit?usp=sharing
+The discription of the project in Portuguese is available at: https://drive.google.com/open?id=12s7DsRjRag9ie9A-iDVQMfVnF8lJTSuY
+Complete report of the project in Portuguese is available at: https://docs.google.com/document/d/18XSamfLG6u7XeN9CTWI0hQ-W9QifN4bFXoIaQJ543DI/edit?usp=sharing
 
 ## Objective
 The main objective of the app is to read and write in a shared file which is treated as a critial area.
@@ -26,6 +26,6 @@ Therefore the application runs as the following:
 ## Results
 <img src="https://scontent.fbhz8-1.fna.fbcdn.net/v/t1.15752-9/82157397_1101685596865344_341226544552738816_n.png?_nc_cat=101&_nc_ohc=FY6YixnCHxkAQkHGTAxbyEkU6MHVq5wq9YVZB0SofqKH8POunVUg4gRlQ&_nc_ht=scontent.fbhz8-1.fna&oh=4c70c4913f21e912a292b25def2ad1d0&oe=5E9E4BE6" alt="graph of the results" width="500">
 
-* The blue line represents the critical area being blocked every time it is entered fro any object (Approach 1)
-* The blue red line represents the critical area being blocked only by writers and readers have the preference to eneter it (Approach 2)
+* The blue line represents the critical area being blocked every time it is entered from any object (Approach 1)
+* The red line represents the critical area being blocked only by writers and readers have the preference to enter it (Approach 2)
 * The yelllow line represents the critical area being blocked only by writers and they have the preference to enter it (Approach 3)
