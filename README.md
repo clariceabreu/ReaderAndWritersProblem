@@ -24,7 +24,8 @@ Therefore the application runs as the following:
 * 100th Iteration: 100 writers Threads and 0 readers Threads access the critical area in the three different approachs
 
 ## Results
-<img src="https://scontent.fbhz8-1.fna.fbcdn.net/v/t1.15752-9/82157397_1101685596865344_341226544552738816_n.png?_nc_cat=101&_nc_ohc=FY6YixnCHxkAQkHGTAxbyEkU6MHVq5wq9YVZB0SofqKH8POunVUg4gRlQ&_nc_ht=scontent.fbhz8-1.fna&oh=4c70c4913f21e912a292b25def2ad1d0&oe=5E9E4BE6" alt="graph of the results" width="300">
+<img src="https://scontent.fbhz8-1.fna.fbcdn.net/v/t1.15752-9/82157397_1101685596865344_341226544552738816_n.png?_nc_cat=101&_nc_ohc=FY6YixnCHxkAQkHGTAxbyEkU6MHVq5wq9YVZB0SofqKH8POunVUg4gRlQ&_nc_ht=scontent.fbhz8-1.fna&oh=4c70c4913f21e912a292b25def2ad1d0&oe=5E9E4BE6" alt="graph of the results" width="500">
+
 * The blue line represents the critical area being blocked every time it is entered fro any object (Approach 1)
 * The blue red line represents the critical area being blocked only by writers and readers have the preference to eneter it (Approach 2)
 * The yelllow line represents the critical area being blocked only by writers and they have the preference to enter it (Approach 3)
